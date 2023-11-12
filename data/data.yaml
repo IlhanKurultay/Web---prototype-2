@@ -1,0 +1,4 @@
+train: data/  # You can set this to a path, but for the front camera, you don't need a specific directory
+val: data/   # You can set this to a path, but for the front camera, you don't need a specific directory
+nc: 1        # Number of classes (e.g., 1 for object detection)
+names: ['person']  # List of class names (you can specify your class name here)

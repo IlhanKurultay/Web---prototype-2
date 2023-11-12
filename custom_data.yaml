@@ -1,0 +1,4 @@
+train: data/images/train  # Path to your training image directory
+val: data/images/val    # Path to your validation image directory
+nc: 1                  # Number of classes (1 in your case, for "person with black T-shirt")
+names: ['person with black T-shirt']  # Class names

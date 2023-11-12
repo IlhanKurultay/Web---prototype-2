@@ -1,0 +1,27 @@
+# custom_model.yaml
+# Model parameters for a custom YOLOv5 model
+
+# YOLOv5 model architecture (choose one from 's', 'm', 'l', or 'x')
+architecture: 's'
+
+# Number of classes (e.g., 1 for "person with black T-shirt")
+nc: 1
+
+# Anchor settings (you can generate anchors using YOLOv5 tools)
+anchors: 4,3, 5,7, 8,5, 12,11, 15,9, 17,16
+
+# Specify model backbone and head settings (you can adjust these)
+backbone:
+  ...
+
+head:
+  ...
+
+# Training settings (batch size, learning rate, etc.)
+train:
+  batch_size: 16
+  lr0: 0.01
+   ...
+
+# Other settings as needed
+...
